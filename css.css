@@ -1,0 +1,271 @@
+body{
+
+  }
+  .bg-inverse {
+    color: #fff!important;
+    background-color: #373a3c!important;
+}
+
+#header{
+padding-top: 0px;
+padding-bottom: 10px;
+background-color: #333333;
+color:#fff;
+  font-family: "Roboto";
+
+}
+#brand{
+  color: #B89B3E;
+  font-size: 1.75em;
+ font-weight: 100;
+  letter-spacing: 0.05em;
+
+}
+#brand2{
+  color: #B89B3E;
+  font-size: 1.3em;
+ font-weight: 100;
+  letter-spacing: 0.05em;
+
+}
+
+#header  .container{
+
+
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+#search{
+
+  display: flex;
+}
+.search {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+.cart{
+  font-size: 40px;
+}
+.searchTerm {
+  width:100%;
+  padding: 5px;
+  height: 41px;
+  border:0px;
+  border-radius: 2px 0 0 2px;
+  outline: none;
+
+}
+
+.searchTerm:focus{
+  color: #B89B3E;
+}
+
+.searchButton {
+  width: 51px;
+  height: 41px;
+  border:0px;
+  background: #B89B3E;
+  text-align: center;
+  color: #000;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+  font-size: 15px;
+}
+#contacts{
+  padding-left: 50px;
+}
+.fa-shopping-cart{
+  float: left;
+  margin-left:0;
+  margin-right: 15px;
+
+}
+.cart-text{
+  margin: 0 1.5% 1.5% 0;
+
+}
+.top-menu{
+
+  text-align: justify;
+
+  font-size: 0.7em;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.top-menu a{
+
+  color:#fff;
+
+
+
+}#top-menu-2{
+    margin-left: 20px;
+    padding-left: 30px;
+      display: flex;
+}
+#top-menu-1{
+    padding-left: 15px;
+        padding-right: 15px;
+
+}
+.counter{
+    display: block;
+    height: 14px;
+    width: 14px;
+    line-height: 14px;
+    margin-left: 3px;
+    margin-right: 30px;
+    text-align: right;
+    -moz-border-radius: 7px; /* or 50% */
+    border-radius:7px; /* or 50% */
+
+    background-color: #848484;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+
+
+}
+#top-menu-2 a{margin-left: 5px;}
+#cart-count{
+  position: absolute;
+  left:35px;
+  font-size: 0.7em;
+
+}
+
+ .dropdown-menu {
+
+ position: fixed;
+ top: 50px;
+ left: 0;
+ z-index: 1000;
+ display: none;
+ float: left;
+ min-width: 160px;
+ padding: 5px 0;
+ margin: 0 auto;
+ text-align: left;
+ }
+
+ .dropdown-menu li {
+ display: inline;
+ }
+
+ .dropdown-menu li.dropdown .dropdown-menu {
+ top: 210px;
+ }
+
+ .dropdown-menu li.dropdown {
+ background: url(http://decombh.org/img/nav_down.png) no-repeat bottom right !important;
+ background-position: 5px 9px !important;
+ }
+#main-menu{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.26);
+-moz-box-shadow:    0px 3px 10px 0px rgba(50, 50, 50, 0.26);
+box-shadow:         0px 3px 10px 0px rgba(50, 50, 50, 0.26);
+}
+#main-menu a{
+  padding: 0;
+  margin: 5px;
+  font-size: 0.75em;
+}
+ body a:hover{
+   color:#B89B3E;
+ }
+
+.item{
+  padding: 0;
+  width:100%;
+   margin:0;
+   z-index: -1;
+}
+.item:hover{
+  background-color:red;
+
+ }
+.item-label{
+  text-align: center;
+  padding-top:20px;
+  padding-bottom: 20px;
+  font-size: 0.8em;
+}
+ul{
+  margin: 0;
+  padding:0;
+  padding-top: 15px;
+    text-align: left;
+    font-size: 0.9em;
+   font-weight: 100;
+    letter-spacing: 0.05em;
+}
+li{
+  text-align: left;
+  list-style-type: none;
+}
+#footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #E1E1E1;
+  font-family: Roboto;
+  font-size: 0.8em;
+}
+#left{
+  text-align: left;
+
+}
+#right{
+text-align:right;
+
+}
+#footer-bottom{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 0.7em;
+  background-color: #000000;
+  color:#C4C4C4;
+}
+.item-div{
+  position: relative;
+  width: 100%;
+}
+.filter{
+  position: absolute;
+  width: 100%;
+  height:100%;
+  text-align: center;
+  color: #fff;
+}
+.filter  div{
+  width: 90%;
+  height:90%;
+  position: absolute;
+   top: 5%;
+   left: 5%;
+   display: flex;
+  align-items: center;
+  justify-content: center ;
+
+  border: 1px solid #c4c4c4;
+
+  visibility: hidden;
+}
+.filter:hover{
+  z-index: 1;
+  background-color: rgba(214, 38, 25, 0.5);
+
+}
+.filter:hover div{visibility: visible;}
+#items >> div{
+ padding: 5px;
+}
