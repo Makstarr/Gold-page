@@ -8,14 +8,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <script src="https://kit.fontawesome.com/ae5b30f64b.js" crossorigin="anonymous"></script>
-
 <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
-    <title></title>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="css.css" >
+        <title></title>
   </head>
   <body>
+
     <div class="container-fluid" id=header>
       <div class="container">
-        <div class= row style="display:flex">
+        <div class= row style="display:flex" id=top>
           <div class="col-md-7" style="padding:0; margin:0">
 <div class=" top-menu" id=top-menu-1 >    <a href="#">Информация отзывы</a> &bull; <a href="#"> Отзывы </a> &bull; <a href="#"> Доставка и оплата</a>     &bull; <a href="#"> Обратная связь </a>  &bull;
   <a href="#"> Скидки и акции </a> &bull; <a href="#">  Контакты </a> &bull;<a href="#">  Оплата онлайн </a>
@@ -27,12 +32,13 @@
   </div>
 </div>
 <div class="row">
-          <div class="col-md-2" id=brand>
+          <div class="col-12 col-md-2" id=brand>
+            <div id=brand>
             Gold Filled
-
+</div>
           </div>
 
-          <div class="col-md-5" style="padding: 0;">
+          <div class="col-5" style="padding: 0;">
  <div class = search id=search>
      <input type="text" class="searchTerm" placeholder="Поиск">
      <button type="submit" class="searchButton">
@@ -42,13 +48,13 @@
 </div>
   </div>
 
-  <div class="col-md-3" id="contacts">
+  <div class="col-3" id="contacts">
     <div>
     <div style="font-size:16px; font-weight: 500;">  +7 (999) 012-34-87 </div>
       <div style="font-size:13px"> Ежедневно с 9:00 до 18:00</div>
     </div>
         </div>
-        <div class="col-md-2" style="padding:0">
+        <div class="col-2" style="padding:0" id=cart>
 
 <div id=cart-count><span class=counter >0</span></div>
           <div class="cart"> <i class='fa fa-shopping-cart' aria-hidden='true'></i> </div>
@@ -58,17 +64,17 @@
           </div>
               </div>
         </div>
-  </div>
+
     </div>
-
-
+    </div>
+<div id=header-shadow></div>
     <!--  END OF HEADER
          ==================================================
        START OF MENU -->
        <div class="container-fluid" id="main-menu">
        <nav class="navbar navbar-expand-lg navbar-light " style="  padding: 0;">
 
-           <div class="container">
+           <div class="container" id=small-menu>
 
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
@@ -77,111 +83,126 @@
        <ul class="navbar-nav">
 
          <li class="nav-item dropdown">
-           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             Dropdown link
-           </a>
-           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-             <a class="dropdown-item" href="#">Action</a>
-             <a class="dropdown-item" href="#">Another action</a>
-             <a class="dropdown-item" href="#">Something else here</a>
-           </div>
-         </li>
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       Dropdown
+     </a>
+     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+       <a class="dropdown-item" href="#">Action</a>
+       <a class="dropdown-item" href="#">Another action</a>
+       <div class="dropdown-divider"></div>
+       <a class="dropdown-item" href="#">Something else here</a>
+     </div>
+     </li>
+     <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+    </li>
+    <li class="nav-item dropdown">
+   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     Dropdown
+   </a>
+   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+     <a class="dropdown-item" href="#">Action</a>
+     <a class="dropdown-item" href="#">Another action</a>
+     <div class="dropdown-divider"></div>
+     <a class="dropdown-item" href="#">Something else here</a>
+   </div>
+   </li>
+   <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+  </li>
+  <li class="nav-item dropdown">
+ <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   Dropdown
+ </a>
+ <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+   <a class="dropdown-item" href="#">Action</a>
+   <a class="dropdown-item" href="#">Another action</a>
+   <div class="dropdown-divider"></div>
+   <a class="dropdown-item" href="#">Something else here</a>
+ </div>
+ </li>
+ <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  Dropdown
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+  <a class="dropdown-item" href="#">Action</a>
+  <a class="dropdown-item" href="#">Another action</a>
+  <div class="dropdown-divider"></div>
+  <a class="dropdown-item" href="#">Something else here</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+ Dropdown
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+ <a class="dropdown-item" href="#">Action</a>
+ <a class="dropdown-item" href="#">Another action</a>
+ <div class="dropdown-divider"></div>
+ <a class="dropdown-item" href="#">Something else here</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+ Dropdown
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+ <a class="dropdown-item" href="#">Action</a>
+ <a class="dropdown-item" href="#">Another action</a>
+ <div class="dropdown-divider"></div>
+ <a class="dropdown-item" href="#">Something else here</a>
+</div>
+</li> <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  Dropdown
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+  <a class="dropdown-item" href="#">Action</a>
+  <a class="dropdown-item" href="#">Another action</a>
+  <div class="dropdown-divider"></div>
+  <a class="dropdown-item" href="#">Something else here</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+ Dropdown
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+ <a class="dropdown-item" href="#">Action</a>
+ <a class="dropdown-item" href="#">Another action</a>
+ <div class="dropdown-divider"></div>
+ <a class="dropdown-item" href="#">Something else here</a>
+</div>
+</li>
 
-
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropdown link
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </li>
-
-
-                           <li class="nav-item dropdown">
-                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                               Dropdown link
-                             </a>
-                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                               <a class="dropdown-item" href="#">Action</a>
-                               <a class="dropdown-item" href="#">Another action</a>
-                               <a class="dropdown-item" href="#">Something else here</a>
-                             </div>
-                           </li>
-
-
-                                    <li class="nav-item dropdown">
-                                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Dropdown link
-                                      </a>
-                                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                      </div>
-                                    </li>
-
-
-                                             <li class="nav-item dropdown">
-                                               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                 Dropdown link
-                                               </a>
-                                               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                 <a class="dropdown-item" href="#">Action</a>
-                                                 <a class="dropdown-item" href="#">Another action</a>
-                                                 <a class="dropdown-item" href="#">Something else here</a>
-                                               </div>
-                                             </li>
-
-
-                                                      <li class="nav-item dropdown">
-                                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                          Dropdown link
-                                                        </a>
-                                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                          <a class="dropdown-item" href="#">Action</a>
-                                                          <a class="dropdown-item" href="#">Another action</a>
-                                                          <a class="dropdown-item" href="#">Something else here</a>
-                                                        </div>
-                                                      </li>
-
-
-                                                               <li class="nav-item dropdown">
-                                                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                   Dropdown link
-                                                                 </a>
-                                                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                                   <a class="dropdown-item" href="#">Action</a>
-                                                                   <a class="dropdown-item" href="#">Another action</a>
-                                                                   <a class="dropdown-item" href="#">Something else here</a>
-                                                                 </div>
-                                                               </li>
-
-
-                                                                        <li class="nav-item dropdown">
-                                                                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                            Dropdown link
-                                                                          </a>
-                                                                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                                            <a class="dropdown-item" href="#">Action</a>
-                                                                            <a class="dropdown-item" href="#">Another action</a>
-                                                                            <a class="dropdown-item" href="#">Something else here</a>
-                                                                          </div>
-                                                                        </li>
-
-
-                                                                                 <li class="nav-item dropdown">
-                                                                                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                                     Dropdown link
-                                                                                   </a>
-                                                                                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                                                     <a class="dropdown-item" href="#">Action</a>
-                                                                                     <a class="dropdown-item" href="#">Another action</a>
-                                                                                     <a class="dropdown-item" href="#">Something else here</a>
-                                                                                   </div>
-                                                                                 </li>
 
 
 
@@ -191,43 +212,45 @@
      </div>
      </div>
    </nav>
+
+
       </div>
 
    <!--  END OF MENU
         ==================================================
       START OF CONTENT -->
-        <div class="container" style=" margin-bottom:100px;">
+        <div class="container" style=" margin-bottom:100px;" id=content>
         <div class="row">
-          <div class="col-md-12">
-            <img src="img/banner.png" style="width:100%; margin-top:10px;">
+          <div class="col-12 col-sm-12 col-xs-12">
+            <img src="img/banner.png" style="width:100%; margin-top:10px; ">
           </div>
             </div>
 <div  style="height:100px">
     </div>
       <div class="row" id=items>
-    <div class="col-md-3"  style="position:relative">
+    <div class="col-6 col-md-3"  style="position:relative">
         <div class=item-div ><div class=filter><div>ПОДРОБНЕЕ</div></div><img src="img/item1.png"  class=item ></div>
         <div class="item-label"> КОМПЛЕКТЫ </div>
         </div>
-        <div class="col-md-3"  style="position:relative">
+        <div class="col-6 col-md-3"   style="position:relative">
             <div class=item-div ><div class=filter><div>ПОДРОБНЕЕ</div></div><img src="img/item1.png"  class=item ></div>
             <div class="item-label"> КОМПЛЕКТЫ </div>
-            </div><div class="col-md-3"  style="position:relative">
+            </div><div class="col-6 col-md-3"   style="position:relative">
                 <div class=item-div ><div class=filter><div>ПОДРОБНЕЕ</div></div><img src="img/item1.png"  class=item ></div>
                 <div class="item-label"> КОМПЛЕКТЫ </div>
-                </div><div class="col-md-3"  style="position:relative">
+                </div><div class="col-6 col-md-3"   style="position:relative">
                     <div class=item-div ><div class=filter><div>ПОДРОБНЕЕ</div></div><img src="img/item1.png"  class=item ></div>
                     <div class="item-label"> КОМПЛЕКТЫ </div>
-                    </div><div class="col-md-3"  style="position:relative">
+                    </div><div class="col-6 col-md-3"   style="position:relative">
                         <div class=item-div ><div class=filter><div>ПОДРОБНЕЕ</div></div><img src="img/item1.png"  class=item ></div>
                         <div class="item-label"> КОМПЛЕКТЫ </div>
-                        </div><div class="col-md-3"  style="position:relative">
+                        </div><div class="col-6 col-md-3"   style="position:relative">
                             <div class=item-div ><div class=filter><div>ПОДРОБНЕЕ</div></div><img src="img/item1.png"  class=item ></div>
                             <div class="item-label"> КОМПЛЕКТЫ </div>
-                            </div><div class="col-md-3"  style="position:relative">
+                            </div><div class="col-6 col-md-3"   style="position:relative">
                                 <div class=item-div ><div class=filter><div>ПОДРОБНЕЕ</div></div><img src="img/item1.png"  class=item ></div>
                                 <div class="item-label"> КОМПЛЕКТЫ </div>
-                                </div><div class="col-md-3"  style="position:relative">
+                                </div><div class="col-6 col-md-3"   style="position:relative">
                                     <div class=item-div ><div class=filter><div>ПОДРОБНЕЕ</div></div><img src="img/item1.png"  class=item ></div>
                                     <div class="item-label"> КОМПЛЕКТЫ </div>
                                     </div>
@@ -242,14 +265,13 @@
        <div class="container-fluid" id="footer">
        <div class="container" >
          <div class="row" >
-           <div class="col-md-2"  id=brand2>
+           <div class="col-md-2 col-12"  id=brand2>
                Gold Filled
              </div>
 
-            <div class="col-md-6" style="padding:0;">
-               <div class="row">
-           <div class="col-md-3" style="padding:0;">
-           <div > КАРТА САЙТА
+            <div class="col-md-2 col-6" >
+
+           <div class=footer-text > КАРТА САЙТА
            <ul>
    <li>Цепочки</li>
    <li>Браслеты</li>
@@ -257,27 +279,28 @@
    <li>Комплекты</li>
   </ul></div>
            </div>
+<div class="col-md-4 col-6" >
+<div class="row">
+           <div class=footer-text class="col-12 col-md-6"> ОБСЛУЖИВАНИЕ </div>
 
-           <div class="col-md-3"style="padding-right: 40px;" >
-           <div> ОБСЛУЖИВАНИЕ </div></div>
-           <div class="col-md-3" style="margin-left:60px;">
-           <div> ИНФОРМАЦИЯ </div></div>
+
+           <div class=footer-text class="col-12 col-md-6"> ИНФОРМАЦИЯ </div>
          </div>
-        </div>
-           <div class="col-md-2" style="padding:0;">
-           <div>КОНТАКТЫ</div></div>
-           <div class="col-md-2" style="padding:0;">
-           <div > ПОДПИСЫВАЙТЕСЬ НА НАС</div></div>
+   </div>
+           <div class="col-md-2" >
+           <div class=footer-text>КОНТАКТЫ</div></div>
+           <div class="col-md-2" >
+           <div class=footer-text > ПОДПИСЫВАЙТЕСЬ НА НАС</div></div>
          </div>
        </div>
               </div>
                <div class="container>-fluid" id="footer-bottom">
                  <div class=container>
                   <div class="row" >
-                    <div class="col-md-6" style="padding:0;" id=left>
+                    <div class="col-6"  id=left>
                      2019© Все права защищены.
                    </div>
-                    <div class="col-md-6" style="padding:0;" id = right>
+                    <div class="col-6" id = right>
                      <i class="fab fa-cc-visa"></i>
                      <i class="fab fa-cc-mastercard"></i>
                    </div>
@@ -288,12 +311,7 @@
    ================================================== -->
    <!-- Placed at the end of the document so the pages load faster -->
 
-
-   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
-   <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+   <script src="js/bootstrap.min.js" ></script>
 
   </body>
 </html>
