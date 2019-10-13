@@ -302,7 +302,7 @@ text-align:right;
 
     color:#000;
     position:fixed;
-    right: 20px;
+    right: 2%;
     top: 10px;
     z-index: 998;
   }
@@ -321,7 +321,7 @@ text-align:right;
     position: fixed;
 z-index: 998;
       top:10px;
-      left:50px;
+      left:10%;
   }
 
 #brand{
