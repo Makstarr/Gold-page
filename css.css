@@ -324,10 +324,12 @@ text-align:right;
 z-index: 998;
       top:10px;
       left:2%;
+      width:50px;
   }
 
 #brand{
   margin-top: 4px;
+
 }
 #content{
   margin-top: 80px
@@ -351,12 +353,42 @@ z-index: 998;
 }
 #main-menu a{
   color:#000;
-  margin-left: 15px}
+  margin-left: 15px;
+
+}
 #main-menu a:hover{
   color:red;
   margin-left: 17px;
 }
 .dropdown-item:hover{
   background-color: transparent;
+  }
+.fa-shopping-cart{
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  right: 2.4%;
+}
+.counter{
 
-  }}
+margin: 0;
+right: 1.8%;
+top:13px;
+z-index: 999;
+position: fixed;
+
+
+}
+}
+}
+
+@media (max-width: 400px) {
+#cart{
+
+  color:#000;
+  position:fixed;
+  right: 5px;
+
+  top: 15px;
+  z-index: 998;
+}
