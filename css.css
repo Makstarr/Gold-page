@@ -1,6 +1,7 @@
 body{
  font-weight: 400 !important;
  font-family: Roboto;
+ overflow: hidden;
   }
   .bg-inverse {
     color: #fff!important;
@@ -569,7 +570,7 @@ padding-right: 8px;
 }
 .shadow {
     background-color: rgba(0,0,0,0.5);
-    height: 100%;
+    height: 10000px;
     position: fixed;
     width: 100%;
     top:10px;
