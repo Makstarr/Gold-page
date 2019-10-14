@@ -1,5 +1,5 @@
 body{
- font-weight: 400;
+ font-weight: 400 !important;
  font-family: Roboto;
   }
   .bg-inverse {
@@ -117,7 +117,7 @@ color:#fff;
   font-size: 1.2em;
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: normal !important;
 
 }
 #card-svg{
@@ -149,14 +149,14 @@ box-shadow:         0px 3px 10px 0px rgba(50, 50, 50, 0.26);
   margin-top: 10px;
   border-top: 1px solid #333;
   font-size: 110%;
-  font-weight:bolder;
+  font-weight:bolder !important;
   display: none;
 }
 .about-comp-text{
   padding: 10px;
 
   font-size: 80%;
-  font-weight:normal;
+  font-weight:normal !important;
 }
 #header a:hover{
    color:#B89B3E;
@@ -181,7 +181,7 @@ bottom: 56.41%;
 
 font-family: Roboto;
 font-style: normal;
-font-weight: bold;
+font-weight: bold !important;
 font-size: 36px;
 line-height: 42px;
 width: 200px;
@@ -316,7 +316,7 @@ color: #686868;
 margin-left: 0;
 margin-right: 0;
 }
-.footer-items {color: #686868;font-weight: 400; font-size: 9px;}
+.footer-items {color: #686868;font-weight: 400 !important; font-size: 9px;}
 .footer-contacts{  margin-left:-20px;}
 .footer-subscribe{
   margin-left:-20px;}
@@ -358,7 +358,7 @@ bottom: 92.55%;
 
 font-family: Roboto;
 font-style: normal;
-font-weight: 900;
+font-weight: 900 !important;
 font-size: 1.4em;
 line-height: 16px;
 
@@ -377,8 +377,8 @@ bottom: 90.95%;
 
 font-family: Roboto;
 font-style: normal;
-font-weight: 500;
-font-size: 0.9em;
+font-weight: 500 !important;
+font-size: 0.8em;
 line-height: 15px;
 
 color: #FFFFFF;
@@ -466,7 +466,7 @@ z-index: 997;
 
 font-family: Roboto;
 font-style: normal;
-font-weight: 200;
+font-weight: 200 !important;
 padding-top: 8px;
 font-size: 21px;
 line-height: 25px;
@@ -495,7 +495,7 @@ color: #B89B3E;
 }
 .footer-text{
     color:#333333;
-    font-weight: 400;
+    font-weight: 400 !important;
   padding:10px;
 }
 #main-menu a{
@@ -570,7 +570,7 @@ padding-right: 8px;
 .shadow {
     background-color: rgba(0,0,0,0.5);
     height: 100%;
-    position: absolute;
+    position: fixed;
     width: 100%;
     top:10px;
     z-index: 990;
