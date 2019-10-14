@@ -6,7 +6,9 @@ body{
     color: #fff!important;
     background-color: #373a3c!important;
 }
-
+a{
+  color:#333333;
+}
 #header{
 padding-top: 0px;
 padding-bottom: 10px;
@@ -21,31 +23,22 @@ color:#fff;
  font-weight: 100;
   letter-spacing: 0.05em;
   text-align: center;
-
 }
 #brand2{
   color: #B89B3E;
   font-size: 1.3em;
  font-weight: 100;
   letter-spacing: 0.05em;
-
 }
-
-
-
 #search{
-
   display: flex;
 }
 .search {
   width: 100%;
-
   margin: 0;
   padding: 0;
 }
-.cart{
-  font-size: 40px;
-}
+
 .searchTerm {
   width:100%;
   padding: 5px;
@@ -53,13 +46,10 @@ color:#fff;
   border:0px;
   border-radius: 2px 0 0 2px;
   outline: none;
-
 }
-
 .searchTerm:focus{
   color: #B89B3E;
 }
-
 .searchButton {
   width: 51px;
   height: 41px;
@@ -74,39 +64,29 @@ color:#fff;
 #contacts{
   padding-left: 50px;
 }
-.fa-shopping-cart{
-  float: left;
-  margin-left:0;
-  margin-right: 15px;
 
-}
 .cart-text{
-  margin: 0 1.5% 1.5% 0;
-
+  position: absolute;
+  top:0px;
+  left:50px;
 }
 .top-menu{
-
   text-align: justify;
-
   font-size: 0.7em;
   margin-top:10px;
   margin-bottom:10px;
 }
-.top-menu a{
-
+#header a{
   color:#fff;
-
-
-
-}#top-menu-2{
+}
+#top-menu-2{
     margin-left: 20px;
     padding-left: 30px;
-      display: flex;
+    display: flex;
 }
 #top-menu-1{
     padding-left: 15px;
-        padding-right: 15px;
-
+    padding-right: 15px;
 }
 .counter{
     display: block;
@@ -124,43 +104,25 @@ color:#fff;
     padding-top: 1px;
     padding-bottom: 1px;
     text-align: center;
-
-
 }
 #top-menu-2 a{margin-left: 5px;}
 #cart-count{
   position: absolute;
-  left:35px;
+  left:25px;
   font-size: 0.7em;
+  z-index: 998;
+}
+.navbar-light .navbar-nav .nav-link{
+  color:#333333;
+  font-size: 1.2em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
 
 }
-
- .dropdown-menu {
-
- position: fixed;
- top: 50px;
- left: 0;
- z-index: 1000;
- display: none;
- float: left;
- min-width: 160px;
- padding: 5px 0;
- margin: 0 auto;
- text-align: left;
- }
-
- .dropdown-menu li {
- display: inline;
- }
-
- .dropdown-menu li.dropdown .dropdown-menu {
- top: 210px;
- }
-
- .dropdown-menu li.dropdown {
- background: url(http://decombh.org/img/nav_down.png) no-repeat bottom right !important;
- background-position: 5px 9px !important;
- }
+#card-svg{
+  fill:white;
+}
 #main-menu{
   padding: 0;
   margin: 0;
@@ -179,10 +141,74 @@ box-shadow:         0px 3px 10px 0px rgba(50, 50, 50, 0.26);
   color:#B89B3E;
 }
 
- body a:hover{
-   color:#B89B3E;
- }
+.dropdown-item:hover{
+  background-color: transparent;
+}
+#about-comp{
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid #333;
+  font-size: 110%;
+  font-weight:bold;
+  display: none;
+}
+.about-comp-text{
+  padding: 10px;
 
+  font-size: 80%;
+  font-weight:normal;
+}
+#header a:hover{
+   color:#B89B3E;
+   text-decoration: none;
+ }
+body a:hover{
+    color:#B89B3E;
+    text-decoration: none;
+  }
+#bunner{
+  position: relative;
+}
+#bunner-title1{
+  position: absolute;
+  color: #B89B3E;
+  /* Gold Filled */
+
+left: 6.5%;
+right: 78.8%;
+top: 34.46%;
+bottom: 56.41%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+width: 200px;
+}
+#bunner-title2{
+  /* Больше чем просто золото */
+
+position: absolute;
+left: 6.41%;
+right: 55.72%;
+top: 47.72%;
+bottom: 43.15%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 100;
+ letter-spacing: 0.05em;
+font-size: 1.7em;
+line-height: 42px;
+width: 500px;
+color: #FFFFFF;
+}
+#zoloto{
+
+border-bottom: 1px solid #B89B3E;
+
+}
 .item{
   padding: 0;
   width:100%;
@@ -216,7 +242,7 @@ li{
   padding-top: 20px;
   padding-bottom: 20px;
   border-top: 1px solid #E1E1E1;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 0.8em;
 }
 #left{
@@ -271,12 +297,122 @@ text-align:right;
 .coll-sm-12, .col-xs-12{
   padding: 0;
 }
+.cart{
+  position: absolute;
+  top: 5px;
+}
+#search-mobile{
+  display: none;
+  visibility: hidden;
+}
 
-@media (max-width: 768px) {
+.footer-items a{
+color: #686868;
+
+}
+
+.footer-text ul li{
+  margin: 5px;
+margin-left: 0;
+margin-right: 0;
+}
+.footer-items {color: #686868;font-weight: 400; font-size: 9px;}
+.footer-contacts{  margin-left:-20px;}
+.footer-subscribe{
+  margin-left:-20px;}
+.footer-images svg{
+  margin: 2px;
+}
+.footer-images {
+  margin-top: 10px
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+#about-comp{display: block;}
+  #bunner-title1{
+    /* Gold Filled */
+
+position: absolute;
+left: 3.45%;
+right: 75.3%;
+top: 35%;
+bottom: 92.55%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 1.4em;
+line-height: 16px;
+
+color: #B89B3E;
+
+
+  }
+  #bunner-title2{
+    /* Больше чем просто золото */
+
+position: absolute;
+left: 3.45%;
+right: 44.36%;
+top: 50%;
+bottom: 90.95%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 0.9em;
+line-height: 15px;
+
+color: #FFFFFF;
+
+
+  }
+  .footer-items
+
+  .navbar-toggler
+  {
+    /* burger menu */
+
+position: fixed;
+width: 17.28px;
+height: 10.95px;
+left: 11.05px;
+top: 11px;
+
+    }#search-mobile{
+    display: flex;
+  visibility: visible;
+
+position: fixed;
+width: 24px;
+height: 24px;
+left: 50px;
+top: 17.41px;
+
+
+  }
 #header{
     background-color: #fff;
         position:fixed;
- z-index: 998;
+ z-index: 997;
         margin-bottom: 50px;
         top:0;}
 
@@ -287,7 +423,7 @@ text-align:right;
       top:40px;
         box-shadow: 0px 10px 8px -8px rgba(50, 50, 50, 0.26);
    background-color: #fff;
-      z-index: 999;
+      z-index: 998;
 
   }
   #top{
@@ -301,17 +437,14 @@ text-align:right;
   }
   #cart{
 
-    color:#000;
+    color:#333333;
     position:fixed;
     right: 6%;
 
-    top: 15px;
-    z-index: 998;
+    top: 5px;
+    z-index: 997;
   }
-  .cart{
-    margin-left: 18px;
-      font-size: 1.5em;
-    }#contacts{
+#contacts{
     visibility: hidden;
     display: none;
   }#search{
@@ -321,16 +454,30 @@ text-align:right;
   #small-menu{
 
     position: fixed;
-z-index: 998;
+z-index: 997;
       top:10px;
       left:2%;
       width:50px;
   }
 
 #brand{
-  margin-top: 4px;
+  /* Gold Filled */
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 200;
+padding-top: 8px;
+font-size: 21px;
+line-height: 25px;
+/* identical to box height */
+
+color: #B89B3E;
+
+
 
 }
+
 #content{
   margin-top: 80px
 }
@@ -347,48 +494,87 @@ z-index: 998;
   top:60px;
 }
 .footer-text{
-    color:#000;
+    color:#333333;
     font-weight: 400;
   padding:10px;
 }
 #main-menu a{
-  color:#000;
+  color:#333333;
   margin-left: 15px;
 
 }
 #main-menu a:hover{
   color:red;
-  margin-left: 17px;
-}
+  }
 .dropdown-item:hover{
   background-color: transparent;
   }
-.fa-shopping-cart{
+.cart{
   margin: 0;
   padding: 0;
   position: fixed;
-  right: 2.4%;
-}
+  left: 88.27%;
+  right: 5.68%;
+  top: 10px;
+  right: 15px;
+    z-index: 99;
+}/* Vector */
+
+
 .counter{
-
 margin: 0;
-right: 1.8%;
-top:13px;
-z-index: 999;
+right: 2.2%;
+top:10px;
+z-index: 998;
 position: fixed;
-
+}
+.footer-contacts{  padding-left:35px;}
+.footer-subscribe{
+  padding-left:10px;}
+#brand2{
+  padding-left: 0px;
+}
+#footer-map{
+  padding-left: 0px;
+  margin-left: -10px;
+}
+.footer-contacts{
+  padding-left: 10px;
 
 }
+.footer-images {
+  padding-left: 10px
+
 }
+.footer-text{
+font-size:   1.2em;
 }
-
-@media (max-width: 400px) {
-#cart{
-
-  color:#000;
-  position:fixed;
-  right: 5px;
-
-  top: 15px;
+.footer-items{
+  font-size: 0.9em;
+}
+.fa-cc-visa, .fa-cc-mastercard{
+padding-right: 8px;
+  font-size: 25px;
+}
+#main-menu a:hover{
+  color:red;
+  margin-left: 17px;
+}
+#card-svg{
+  fill:#333;
   z-index: 998;
+  width: 20px;
+  }
+
+}
+.shadow {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top:10px;
+    z-index: 990;
+}
+.dropdown-menu{
+  border: none;
 }
