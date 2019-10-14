@@ -1,6 +1,6 @@
 body{
  font-weight: 400 !important;
- font-family: "Roboto, PT Sans";
+ font-family: "Roboto, Sans Serif";
  overflow: hidden;
   }
   .bg-inverse {
@@ -15,7 +15,7 @@ padding-top: 0px;
 padding-bottom: 10px;
 background-color: #333333;
 color:#fff;
-  font-family: "Roboto, PT Sans";
+  font-family: "Roboto, Sans Serif";
 
 }
 #brand{
@@ -116,7 +116,7 @@ color:#fff;
 .navbar-light .navbar-nav .nav-link{
   color:#333333;
   font-size: 1.2em;
-  font-family: "Roboto, PT Sans";
+  font-family: "Roboto, Sans Serif";
   font-style: normal;
   font-weight: normal !important;
 
@@ -180,7 +180,7 @@ right: 78.8%;
 top: 34.46%;
 bottom: 56.41%;
 
-font-family: "Roboto, PT Sans";
+font-family: "Roboto, Sans Serif";
 font-style: normal;
 font-weight: bold !important;
 font-size: 36px;
@@ -196,7 +196,7 @@ right: 55.72%;
 top: 47.72%;
 bottom: 43.15%;
 
-font-family: "Roboto, PT Sans";
+font-family: "Roboto, Sans Serif";
 font-style: normal;
 font-weight: 100;
  letter-spacing: 0.05em;
@@ -243,7 +243,7 @@ li{
   padding-top: 20px;
   padding-bottom: 20px;
   border-top: 1px solid #E1E1E1;
-  font-family: "Roboto, PT Sans";
+  font-family: "Roboto, Sans Serif";
   font-size: 0.8em;
 }
 #left{
@@ -357,7 +357,7 @@ right: 75.3%;
 top: 35%;
 bottom: 92.55%;
 
-font-family: "Roboto, PT Sans";
+font-family: "Roboto, Sans Serif";
 font-style: normal;
 font-weight: 900 !important;
 font-size: 1.4em;
@@ -376,7 +376,7 @@ right: 44.36%;
 top: 50%;
 bottom: 90.95%;
 
-font-family: "Roboto, PT Sans";
+font-family: "Roboto, Sans Serif";
 font-style: normal;
 font-weight: 500 !important;
 font-size: 0.8em;
@@ -465,7 +465,7 @@ z-index: 997;
   /* Gold Filled */
 
 
-font-family: "Roboto, PT Sans";
+font-family: "Roboto, Sans Serif";
 font-style: normal;
 font-weight: 200 !important;
 padding-top: 8px;
