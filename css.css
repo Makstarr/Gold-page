@@ -9,6 +9,24 @@ body{
 a{
   color:#333333;
 }
+.nav-item:checked {
+    border: none !important;
+}
+.nav-item:active{
+    border: none !important;
+}
+.show{
+  border: none !important;
+}
+.dropdown{
+  border: none  !important
+}
+.dropdown:active{
+  border: none  !important
+}
+.show:active{
+    border: none !important
+}
 #header{
 padding-top: 0px;
 padding-bottom: 10px;
